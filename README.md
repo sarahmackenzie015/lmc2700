@@ -3,13 +3,13 @@ LMC 2700 Project 5
 
 Hey!!! So grab the Project5 folder, it has all my stuff in it.
 
-What works (or should, lmk if somethings weird):  
+# What works (or should, lmk if somethings weird):  
   -able to draw  
   -able to change pen size  
   -able to change pen color  
   -able to clear canvas and start over  
   
-  What needs to be done
+ # What needs to be done
   -ability to save and store drawings  
     -MY IDEA: Store canvas objects in the same way I do colors[]. I initialize a bunch of <dev> objects with colors
     using a loop, maybe we can do the same with canvases? Then, set the "active" canvas to the current one, and each time the   
@@ -19,6 +19,6 @@ What works (or should, lmk if somethings weird):
   -ability to view the entire flipbook in a series once all done
  
  
- Extra Features (if time permits):  
+ # Extra Features (if time permits):  
   -add previous canvas as a transparent layer to make it easier for the user to add the next element in the flipbook  
   -add built-in shapes that can be applied (Again this will probably be achievable once we figure out how to store canvases)
