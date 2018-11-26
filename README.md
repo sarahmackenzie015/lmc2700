@@ -7,7 +7,7 @@ What works (or should, lmk if somethings weird):
   -able to draw  
   -able to change pen size  
   -able to change pen color  
-  -able to clear  
+  -able to clear canvas and start over  
   
 What still needs to be done:  
   -ability to save and store drawings  
