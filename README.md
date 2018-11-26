@@ -3,7 +3,7 @@ LMC 2700 Project 5
 
 Hey!!! So grab the Project5 folder, it has all my stuff in it.
 
-What works (or should, lmk if somethings weird):
+What works (or should, lmk if somethings weird):  
   -able to draw
   -able to change pen size
   -able to change pen color
