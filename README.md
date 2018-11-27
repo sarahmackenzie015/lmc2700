@@ -21,6 +21,7 @@ Hey!!! So grab the Project5 folder, it has all my stuff in it.
   - ability to save a sketch to template options  
   - view the entire flipbook in a series once all done  
       - add timing intervals so that it looks like a real flipbook  
+  - create popup for About just describing th project
  
  # Extra Features (if time permits):  
   - turn.js for final flipbook- it makes the canvas look like a real page  
