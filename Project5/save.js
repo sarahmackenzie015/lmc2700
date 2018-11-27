@@ -20,10 +20,10 @@ function saveImage(){
 	var frame = new Image();
     frame.src = canvas.toDataURL();
     frames[curr] = frame; //store in array of image objects
-    frame.onload = function(){
-    	frame.style.opacity = "0.1"
-    	context.drawImage(frame, 50, 50, canvas.width/2, canvas.height/2);
-  	}
+   //  frame.onload = function(){
+   //  	frame.style.opacity = "0.1"
+   //  	context.drawImage(frame, 50, 50, canvas.width/2, canvas.height/2);
+  	// }
 
   	//clear canvas
   	clearCanvas(currFrame);
