@@ -6,22 +6,24 @@ Hey!!! So grab the Project5 folder, it has all my stuff in it.
   - drawing ability  
   - color selection  
   - pen size selection  
-  - buttons: done (new frame), clear, and finish (to finish entire piece
+  - buttons: New Frame, Clear, and Finish (currently does nothing)
   - frame count  
   - moving sidebar 
-        -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)
-        -note: no current functionality of these options
-        
-        
-
+        -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)  
+        -note: no current functionality of these options  
+  - saves old frames (can be accessed with L and R arrow keys)
+      
   
- # What needs to be done
- 
-  
-  -ability to view last canvas element: Once we can save and store this should be fairly easy   
-  -ability to view the entire flipbook in a series once all done
- 
+ # TODO:
+  - add transparent overlay of last frame to new frame for tracing and have it NOT save with the new image  
+  - add sketches as templates  
+        -ability to resize/move these sketches  
+  - ability to save a sketch to template options  
+  - view the entire flipbook in a series once all done  
+      - add timing intervals so that it looks like a real flipbook  
  
  # Extra Features (if time permits):  
-  -add previous canvas as a transparent layer to make it easier for the user to add the next element in the flipbook  
-  -add built-in shapes that can be applied (Again this will probably be achievable once we figure out how to store canvases)
+  - turn.js for final flipbook- it makes the canvas look like a real page  
+  - popup modal signalling for the users to switch (this is given that they're working on the same computer)
+  - once creation made- ability to name & download????
+  
