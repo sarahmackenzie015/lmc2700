@@ -1,12 +1,12 @@
-# lmc2700
-LMC 2700 Project 5
+# LMC 2700 Project 5
 
 Hey!!! So grab the Project5 folder, it has all my stuff in it.
 
-# Features:  
+# Current Features:  
   - drawing ability  
   - color selection  
   - pen size selection  
+  - buttons: done (new frame), clear, and finish (to finish entire piece
   - frame count  
   - moving sidebar 
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)
