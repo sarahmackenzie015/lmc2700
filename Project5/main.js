@@ -9,7 +9,7 @@ clearBtn.addEventListener('click', function(){
 
 
 var radius = 5; 
-var dragging = false;
+var dragging = false; //basically, is the user pressing the mouse to draw
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -24,6 +24,7 @@ window.onresize = function(){
 function clearCanvas(c){
 	canvas.width = canvas.width;
 	context.lineWidth = radius*2;
+	setSwatch({target: document.getElementsByClassName('swatch')[0]}); //reseting default color
 }
 
 context.lineWidth = radius*2;
@@ -50,6 +51,49 @@ var disengage = function(){
 	context.beginPath();
 }
 
+document.onkeydown = checkKey;
+
+
+var temp = 0;
+
+//want to see if curr has changed since the last key press.
+//need to 
+
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    //left arrow
+ 	if (e.keyCode == '37') {
+        if (temp > 0){
+        	temp--;
+	        canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+			context.putImageData(images[temp], 0,0);
+			console.log("temp: " + temp);
+		}
+    }
+    //right arrow
+    else if (e.keyCode == '39') {
+    	temp++;
+     	if (temp < curr){
+	        canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+			context.putImageData(images[temp], 0,0);
+			console.log("temp: "  + temp);
+		} else {
+			clearCanvas(canvas);
+		}
+    }
+  } 
+
 canvas.addEventListener('mousedown', engage);
 canvas.addEventListener('mouseup', disengage);
 canvas.addEventListener('mousemove', putPoint);
+
+
+
+function toggleSideBar(){
+	document.getElementById("sidebar").classList.toggle('active');
+}

@@ -4,31 +4,43 @@ var saveButton = document.getElementById('save');
 saveButton.addEventListener('click', saveImage);
 
 
+var images = [100]; //frames as imageData objects -> this is just the pixel data essentially
+var frames = [100]; //frames as images -> needed in order to manipulate objects
+var curr = 0;
+var temp = 0;
+
 function saveImage(){
-	
-	//save canvas image
-	var data = canvas.toDataURL();
 
-	//make a new canvas object
-	var drawing = document.createElement('canvas');
-		drawing.width = window.innerWidth;
-   		drawing.height = window.innerHeight;
-   	var context= canvas.getContext('2d');
+	//get the frame
+	var currFrame = document.getElementById("canvas");
+	var image = context.getImageData(0,0, canvas.width, canvas.height);
 
-   	//set data to old data
-   	drawing.src = data;
-	drawing.onload = function() {
-   		context.drawImage(drawing,0,0);
-	};
+	//store in the two arrays
+	images[curr] = image; //store in array of imageData objects (may be deleted later)
+	var frame = new Image();
+    frame.src = canvas.toDataURL();
+    frames[curr] = frame; //store in array of image objects
+    frame.onload = function(){
+    	frame.style.opacity = "0.1"
+    	context.drawImage(frame, 50, 50, canvas.width/2, canvas.height/2);
+  	}
 
-	//add to array
-	images[images.length] = drawing;
+  	//clear canvas
+  	clearCanvas(currFrame);
 
-	//for testing
-	window.open(data, '_blank', 'location=0', 'menubar=0');
+  	//increment for next save & log
+  	curr++;
+	temp++;
+	console.log("temp: " + temp);
 
-	//clear the data to start over
-	clearCanvas(canvas);
+
+	//end if images == 100
+	if (curr == 99){
+		finishSketch();
+	}
+
+	//increment frame count
+	var frameCount = document.getElementById('frameCount');
+	frameCount.innerHTML = curr + 1;
+
 }
-
-var images = [];
