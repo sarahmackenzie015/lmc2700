@@ -1,6 +1,6 @@
 # LMC 2700 Project 5
 
-Hey!!! So grab the Project5 folder, it has all my stuff in it.
+Hey!!! So grab the Project5 folder, it has all the stuff in it.
 
 # Current Features:  
   - drawing ability  
