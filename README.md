@@ -10,7 +10,7 @@ Hey!!! So grab the Project5 folder, it has all the stuff in it.
   - frame count  
   - moving sidebar   
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)   
-        -simple modals appear when option clicked (although they currently all trigger the same modal when clicked)  
+        -simple modal appears when an option is clicked (although they currently all trigger the same modal when clicked)  
   - saves old frames (can be accessed with L and R arrow keys)
       
   
