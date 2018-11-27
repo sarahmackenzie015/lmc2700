@@ -8,7 +8,7 @@ Hey!!! So grab the Project5 folder, it has all my stuff in it.
   - pen size selection  
   - buttons: New Frame, Clear, and Finish (currently does nothing)
   - frame count  
-  - moving sidebar 
+  - moving sidebar   
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)   
         -simple modals appear when option clicked  
   - saves old frames (can be accessed with L and R arrow keys)
