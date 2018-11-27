@@ -10,7 +10,7 @@ Hey!!! So grab the Project5 folder, it has all my stuff in it.
   - frame count  
   - moving sidebar 
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)  
-        -note: no current functionality of these options  
+        -note: no current functionality for these options  
   - saves old frames (can be accessed with L and R arrow keys)
       
   
