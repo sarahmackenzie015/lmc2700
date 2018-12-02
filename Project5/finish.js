@@ -15,10 +15,8 @@ function finishSketch(){
     tool.style.display = "none";
     side.style.display = "none";
 
-   // showImage();
-  // context.putImageData(images[0], 0,0); 
-   Start(0);
-
+   context.putImageData(images[0], 0,0); 
+   Start();
 }	
 
 function Start() {
@@ -27,9 +25,11 @@ function Start() {
 
 
 function ChangeImages(){
-	context.putImageData(images[i], 0,0); 
-    i++;
+	if (i < temp){
+		context.putImageData(images[i], 0,0); 
+   		 i++;
     Start(1000);
+	}
 }
 
 function showImage(i){
