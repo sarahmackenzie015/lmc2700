@@ -174,5 +174,18 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
-    p
+}
+
+.template-button {
+	width: 50%;
+	cursor: pointer;
+}
+
+#template-block {
+	display: flex;
+	justify-content: center;
+}
+
+.template-wrapper {
+	width: 125px;
 }

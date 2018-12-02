@@ -19,6 +19,7 @@
         <div id="finish">Finish</div>
         <div id="frame">Frame: <span id="frameCount">1</span></div>
     </div>
+
     <div id="sidebar">
         <div class="toggle-btn" onclick="toggleSideBar()">
             <span></span>
@@ -31,12 +32,38 @@
             <li>About</li>
         </ul>
     </div>
-    <div id="about" class="modal">
+
+    <div id="template-content" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div  id = 'template-block'>
+                <div class = 'template-wrapper' id = 'draw-line' onclick="lineSelect = true, span.onclick()">
+                  <img src = "line button.jpg" class = 'template-button'>
+                </div>
+                <div class = 'template-wrapper' id = 'draw-circle' onclick="circleSelect = true, span.onclick()">
+                    <img src = "circle button.jpg" class = 'template-button'>
+                </div>
+                <div class = 'template-wrapper' id = 'draw-rect' onclick="rectSelect = true, span.onclick()">
+                    <img src = "rect button.jpg" class = 'template-button'>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="add-content" class="modal">
         <div class="modal-content">
         <span class="close">&times;</span>
-          <p>Some text in the Modal..</p>
-     </div>
+          <p>Add your own stickers (coming soon!)</p>
+        </div>
     </div>
+
+    <div id="about-content" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+          <p>This flipbook project was created by Morgan Gomez, Sarah Weyand, Jenna Kohls, and Wyatt Cushman.</p>
+        </div>
+    </div>
+
     <canvas id="canvas" style="display: block">
        unsupported browser
     </canvas>
