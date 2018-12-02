@@ -82,6 +82,13 @@
 	height: 30px;
 	padding: 5px;
 }
+#turn{
+	float: right ;
+	margin-right: 20px;
+	height: 30px;
+	padding: 5px;
+}
+
 
 #colors{
 	float: right;
@@ -174,18 +181,15 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
-.template-button {
-	width: 50%;
-	cursor: pointer;
+img {
+	opacity: 20%;
+	position: relative;
+	z-index:2;
 }
-
-#template-block {
-	display: flex;
-	justify-content: center;
-}
-
-.template-wrapper {
-	width: 125px;
+#canvas{
+	z-index:2;
+	background-image: 'white.png⁩';
 }
