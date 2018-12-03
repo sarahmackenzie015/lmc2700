@@ -13,19 +13,19 @@ listItems[0].addEventListener('click', function() {
 
 });
 
-//add custom template
-listItems[1].addEventListener('click', function() {
-    add.style.display = "block";
-});
+// //add custom template
+// listItems[1].addEventListener('click', function() {
+//     add.style.display = "block";
+// });
 
 //about
-listItems[2].addEventListener('click', function() {
+listItems[1].addEventListener('click', function() {
     about.style.display = "block";
 });
 
 span.onclick = function() {
     template.style.display = "none";
-    add.style.display = "none";
+  // add.style.display = "none";
     about.style.display = "none";
 }
 
