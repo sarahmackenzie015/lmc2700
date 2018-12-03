@@ -6,11 +6,11 @@ Hey!!! So grab the Project5 folder, it has all the stuff in it.
   - drawing ability  
   - color selection  
   - pen size selection  
-  - buttons: New Frame, Clear, and Finish (currently does nothing)
+  - buttons: New Frame, Clear, and Finish  
   - frame count  
   - moving sidebar   
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)   
-        -simple modal appears when an option is clicked (although they currently all trigger the same modal)  
+        -simple modal appears when an option is clicked   
   - saves old frames (can be accessed with L and R arrow keys)
   - view the entire flipbook in a series once all done  
       - add timing intervals so that it looks like a real flipbook  
