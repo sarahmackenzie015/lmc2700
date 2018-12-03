@@ -12,6 +12,8 @@ Hey!!! So grab the Project5 folder, it has all the stuff in it.
         -3 menu options: Templates, Add Your Own, and About (I figure for like our names and about the project)   
         -simple modal appears when an option is clicked (although they currently all trigger the same modal)  
   - saves old frames (can be accessed with L and R arrow keys)
+  - view the entire flipbook in a series once all done  
+      - add timing intervals so that it looks like a real flipbook  
       
   
  # TODO:
@@ -19,8 +21,6 @@ Hey!!! So grab the Project5 folder, it has all the stuff in it.
   - add sketches as templates  
         -ability to resize/move these sketches  
   - ability to save a sketch to template options  
-  - view the entire flipbook in a series once all done  
-      - add timing intervals so that it looks like a real flipbook  
  
  # Extra Features (if time permits):  
   - turn.js for final flipbook- it makes the canvas look like a real page  
