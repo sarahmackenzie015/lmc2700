@@ -1,7 +1,11 @@
 var finishButton = document.getElementById('finish');
 
+
 finish.addEventListener('click', finishSketch);
+
 var i = 0;
+
+var done = 0;
 
 function finishSketch(){
 
@@ -29,7 +33,13 @@ function ChangeImages(){
 		context.putImageData(images[i], 0,0); 
    		 i++;
     Start(1000);
-	}
+	} else {
+   if (confirm("Play Again?")) {
+        location.reload();
+    } else {
+        txt = "You pressed Cancel!";
+    }
+  }
 }
 
 function showImage(i){
